@@ -7,8 +7,10 @@ import org.junit.Test;
 public class TestArray {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void size0(){
+		ArrayAsociativo a = new ArrayAsociativo();
+		assertTrue(0 == a.size());
+		System.gc();
 	}
 
 }
